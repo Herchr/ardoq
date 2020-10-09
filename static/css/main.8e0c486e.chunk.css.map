@@ -1,0 +1,1 @@
+{"version":3,"sources":["Map.css"],"names":[],"mappings":"AAAA,KACE,YAAa,CACb,YACF","file":"main.8e0c486e.chunk.css","sourcesContent":[".map {\n  width: 1500px;\n  height: 800px;\n}\n"]}
