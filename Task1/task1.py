@@ -1,15 +1,10 @@
-import math;
 def highestProduct(integers):
-    greatestNumbers = [-math.inf for i in range(0, 3)]
-    for integer in integers:
-        i = 0
-        while i < len(greatestNumbers):
-            if integer > greatestNumbers[i]:
-                greatestNumbers[i] = integer
-                break
-            i += 1
-        greatestNumbers.sort()
-    product = greatestNumbers[0]
-    for i in range(1, len(greatestNumbers)):
-        product *= greatestNumbers[i]
-    return product
+    if len(integers) == 3:
+        return integers[0]*integers[1]*integers[2]
+
+    integers.sort()
+
+    min1, min2 = integers[0], integers[1]
+    max1, max2, max3 = integers[-1], integers[-2], integers[-3]
+
+    return max(max1 * max2 * max3, max1 * min1 * min2)
