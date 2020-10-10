@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9ca3dfbbc93f32b16aba788a2c58627",
+    "revision": "a34b38673be80e184464121206d0837c",
     "url": "/ardoq/index.html"
   },
   {
-    "revision": "a62c8d9866121f412c99",
+    "revision": "902c65417b8c4be48529",
     "url": "/ardoq/static/css/main.8e0c486e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ardoq/static/js/2.975f8f21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a62c8d9866121f412c99",
-    "url": "/ardoq/static/js/main.3cbaed48.chunk.js"
+    "revision": "902c65417b8c4be48529",
+    "url": "/ardoq/static/js/main.2fdb29f3.chunk.js"
   },
   {
     "revision": "2688d325d7f7db24f6ed",
